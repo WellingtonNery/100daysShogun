@@ -43,6 +43,8 @@ Projeto/
 │   ├── Calendario/
 │   └── Personagens/
 │
+├── Audios/
+│
 └── README.md
 ```
 
@@ -51,17 +53,38 @@ Projeto/
 A entrada de dados por parte do usuário é coletada por meio de uma função do Pygame, `pg.event.get()`, em vez do `input`. Da mesma forma, utilizamos a função `blit`, também do Pygame, para exibir imagens na tela, substituindo o uso do `print`.
 Utilizamos dicionários para armazenar informações do mesmo tipo que possuem valores diferentes, como os pontos, além de também utilizá-los para armazenar os eventos. Já as listas foram utilizadas majoritariamente para armazenar os balões de fala dos personagens, além de uma lista principal usada para armazenar os dicionários de eventos.
 
+## Como Executar
+
+1. Certifique-se de ter o Python 3 instalado.
+2. Instale a biblioteca Pygame:
+   ```
+   pip install pygame
+   ```
+3. Clone o repositório:
+   ```
+   git clone https://github.com/WellingtonNery/100daysShogun.git
+   ```
+4. Entre na pasta do projeto e execute:
+   ```
+   cd 100daysShogun
+   python main.py
+   ```
+
+> O jogo abre em tela cheia. Para sair, pressione **ESC**.
+
 
 ## Status do Projeto
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/status-concluído-green)
 
-## Autores
+## Contribuições
 
-* Diego Rhian Bochnia
-* João Pedro M. Spielmann
-* Lucas R. Frois
-* Wellington Nery G. Costa
+- **Wellington Nery G. Costa** — Atuou como desenvolvedor principal do projeto: criou
+  a estrutura base do código sobre a qual o time construiu suas partes, e contribuiu
+  tecnicamente em todos os sistemas do jogo (eventos, diálogos, pontuação/prestígio,
+  áudio e sprites). Também responsável pela documentação do projeto (README).
+- **Diego Rhian Bochnia** — [a preencher]
+- **João Pedro M. Spielmann** — [a preencher]
 
 ## Direitos
 
